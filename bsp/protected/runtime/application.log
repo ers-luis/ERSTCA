@@ -1,0 +1,266 @@
+2013/07/09 08:53:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "giix".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('giix')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/giix
+---
+2013/07/09 10:08:53 [error] [exception.CException] exception 'CException' with message 'Property "GiiModule.tablePrefix" is not defined.' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('tablePrefix', 'time_')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('gii', NULL, Array)
+#3 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('system.gii.GiiM...', 'gii', NULL, Array)
+#4 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('gii')
+#5 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('gii/AweModel')
+#6 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/AweModel')
+#7 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/bsp/index.php/gii/AweModel
+HTTP_REFERER=http://localhost:8080/bsp/index.php/gii
+---
+2013/07/09 10:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/gii/CCodeGenerator.php:90
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionCode()
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('code')
+#5 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/AweModel/co...')
+#6 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/bsp/index.php/gii/AweModel/code/id/1
+---
+2013/07/09 10:14:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/gii/CCodeGenerator.php:90
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionCode()
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('code')
+#5 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/AweModel/co...')
+#6 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/bsp/index.php/gii/AweModel/code/id/1
+---
+2013/07/09 10:14:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/gii/CCodeGenerator.php:90
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionCode()
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('code')
+#5 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/AweModel/co...')
+#6 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/bsp/index.php/gii/AweModel/code/id/1
+---
+2013/07/09 10:16:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Person".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Person')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/Person
+---
+2013/07/17 00:47:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "giix".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('giix')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/giix
+---
+2013/09/04 00:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/user
+---
+2013/09/04 00:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/users
+---
+2013/09/04 00:06:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/admin".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/admin')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/user/admin
+---
+2013/09/04 00:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "institution".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('institution')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/institution
+---
+2013/09/04 00:07:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "institution/admin".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('institution/adm...')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/institution/admin
+---
+2013/09/04 00:08:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "institution".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('institution')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/institution
+---
+2013/09/04 00:08:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "giix".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('giix')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/giix
+---
+2013/10/08 09:41:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "project".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/project
+---
+2013/10/08 09:42:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projects".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('projects')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/projects
+---
+2013/10/08 09:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "institution".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('institution')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/institution
+---
+2013/10/08 09:43:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "institution".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(270): CController->missingAction('institution')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('institution')
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/institutio...')
+#3 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bsp/index.php/site/institution
+---
+2013/10/08 09:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "institutions".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(270): CController->missingAction('institutions')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('institutions')
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/institutio...')
+#3 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bsp/index.php/site/institutions
+---
+2013/10/08 09:44:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "giix".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('giix')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/giix
+---
+2013/10/25 07:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "giix".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('giix')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/giix
+---
+2013/10/25 07:05:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/user
+---
+2013/10/25 07:05:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/users
+---
+2013/10/25 07:05:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(270): CController->missingAction('user')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('user')
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/user')
+#3 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bsp/index.php/site/user
+---
+2013/10/25 07:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users')
+#3 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bsp/index.php/site/users
+---
+2013/10/25 07:06:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "person".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(270): CController->missingAction('person')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('person')
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/person')
+#3 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bsp/index.php/site/person
+---
+2013/10/25 07:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "persons".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CController.php(270): CController->missingAction('persons')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('persons')
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/persons')
+#3 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bsp/index.php/site/persons
+---
+2013/10/25 07:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "persons".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('persons')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/persons
+---
+2013/10/25 07:06:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "person".' in /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person')
+#1 /Applications/mappstack-5.4.15-0/apache2/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/mappstack-5.4.15-0/apache2/htdocs/bsp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bsp/index.php/person
+---
